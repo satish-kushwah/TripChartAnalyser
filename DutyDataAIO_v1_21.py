@@ -32,7 +32,7 @@ def myfunction(c,wef):
   sheet1.column_dimensions['D'].width=18
   sheet1.column_dimensions['E'].width=18
   currentrow=1
-  sheet1.cell(row=currentrow,column=1).value='Developer: satishkushwah50@gmail.com'
+  sheet1.cell(row=currentrow,column=1).value='Developer: Satish'
   currentrow=3
   for i in range(1,len(d)+1):
     if SignOnOff[i-1].split('\t')[1]!='REST':
